@@ -13,6 +13,17 @@ a changed DLL. Do not publish source code or PDB files here.
 
 Find latest dlls at [releases](https://github.com/cbart-cmd/gw2addonsreleases/releases/latest)
 
+## Timers v0.3.15
+
+The placement preview now lives in **Boons** and affects boons only. Timers have
+their own **Also hear on the default device** setting, separate from Soundboard
+and used for both alerts and five-second previews. The previous shared choice is
+copied once on upgrade. Simulating Well of Corruption damage also shows two
+clearly labelled mock countdowns without altering real counters; at most two
+counters are visible in total, with real ones taking priority. Incoming counters
+are circles with seconds inside; optional right-button dragging moves the group
+and saves its position. Dragging is disabled by default.
+
 ## Timers v0.3.14
 
 Optional incoming Well of Corruption counters in **Damage alerts**: up to two
