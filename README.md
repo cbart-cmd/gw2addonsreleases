@@ -10,7 +10,9 @@ Nexus checks each addon's direct download URL by requesting the same URL with
 
 - `timers.dll` and `timers.dll.md5`
 - `fight_analysis_danger.dll` and `fight_analysis_danger.dll.md5`
+- `ddkboons.dll` and `ddkboons.dll.md5`
 
-The addon projects use Nexus's Direct update provider and point to their own DLL,
-so each addon receives only its matching binary. The MD5 sidecars are used by
-Nexus to detect a changed DLL.
+Timers and Fight Analysis use Nexus's Direct update provider and point to their own
+DLL. DDKBoons uses Nexus's GitHub update provider: also publish its DLL and MD5 as
+assets of the latest GitHub release. The MD5 sidecars are used by Nexus to detect
+a changed DLL. Do not publish source code or PDB files here.
