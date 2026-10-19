@@ -13,22 +13,10 @@ a changed DLL. Do not publish source code or PDB files here.
 
 Find latest dlls at [releases](https://github.com/cbart-cmd/gw2addonsreleases/releases/latest)
 
-## Timers v0.3.15
+## Timers 
 
-The placement preview now lives in **Boons** and affects boons only. Timers have
-their own **Also hear on the default device** setting, separate from Soundboard
-and used for both alerts and five-second previews. The previous shared choice is
-copied once on upgrade. Simulating Well of Corruption damage also shows two
-clearly labelled mock countdowns without altering real counters; at most two
-counters are visible in total, with real ones taking priority. Incoming counters
-are circles with seconds inside; optional right-button dragging moves the group
-and saves its position. Dragging is disabled by default.
+Timers
 
-## Timers v0.3.14
+## WvW Insights
 
-Optional incoming Well of Corruption counters in **Damage alerts**: up to two
-independent 40-second WvW countdowns, smaller than the manual timers by default,
-with their own position and size. Pulses from the same attacker are grouped for
-6 seconds; a third well does not replace either active counter. Existing flashes
-are unchanged. Requires ArcDPS combat events and the enabled damage alert for
-skill 10545. Disabled by default.
+Similar to Wvw Analysys, personalized for my needs.
