@@ -6,6 +6,7 @@ The addon manager checks each addon's direct download URL by requesting the same
 
 - `timers.dll` and `timers.dll.md5`
 - `fight_analysis_danger.dll` and `fight_analysis_danger.dll.md5`
+- `gw2_builds.dll` and `gw2_builds.dll.md5`
 
 They use  Direct update provider and point to their own
 DLL. The MD5 sidecars are used by the addon manager to detect
@@ -20,3 +21,7 @@ Timers
 ## WvW Insights
 
 Similar to Wvw Analysys, personalized for my needs.
+
+## GW2 Builds and rotations
+
+Shows WvW Builds and rotations. It does NOT press the skills for you.
