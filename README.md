@@ -14,6 +14,8 @@ a changed DLL. Do not publish source code or PDB files here.
 
 Find latest dlls at [releases](https://github.com/cbart-cmd/gw2addonsreleases/releases)
 
+MADE WITH AI (Astra, Deepseek, Sonet, Claude chat, Gemini chat).
+
 ## Timers 
 
 Timers
